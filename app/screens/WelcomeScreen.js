@@ -9,6 +9,8 @@ import {
 import React from "react";
 import Constants from "expo-constants";
 
+import colors from "../config/colors";
+
 export default function WelcomeScreen() {
   return (
     <ImageBackground
@@ -50,10 +52,10 @@ const styles = StyleSheet.create({
   },
   firstButton: {
     flex: 1,
-    backgroundColor: "tomato",
+    backgroundColor: colors.primary,
   },
   secondButton: {
     flex: 1,
-    backgroundColor: "dodgerblue",
+    backgroundColor: colors.secondary,
   },
 });
